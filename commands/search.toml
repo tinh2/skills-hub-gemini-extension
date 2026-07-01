@@ -1,0 +1,8 @@
+description = "Search the Skills Hub catalog for AI agent skills"
+prompt = """
+Use the skills-hub `search_skills` tool to find skills matching: {{args}}
+
+Show the top matches, and for each include the skill name, a one-line
+description, and its install command. If nothing matches, suggest a broader
+query.
+"""

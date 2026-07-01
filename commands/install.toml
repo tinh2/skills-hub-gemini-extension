@@ -1,0 +1,7 @@
+description = "Install a Skills Hub skill by slug"
+prompt = """
+Use the skills-hub `install_skill` tool to install the skill with slug: {{args}}
+
+Confirm where it was installed and how to invoke it. If the slug is unknown,
+use `search_skills` first to find the right one.
+"""
