@@ -1,10 +1,11 @@
 {
   "name": "skills-hub",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Search and install 15,000+ AI agent skills from skills-hub.ai inside Gemini CLI.",
   "mcpServers": {
     "skills-hub": {
-      "httpUrl": "https://api.skills-hub.ai/mcp"
+      "url": "https://api.skills-hub.ai/mcp",
+      "type": "http"
     }
   },
   "contextFileName": "GEMINI.md"
